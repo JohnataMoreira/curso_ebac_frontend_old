@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(187, 186, 186);
+}
+
+h1{
+    color: #fff;
+    font-family: Impact, sans-serif;
+    font-weight: normal;
+    font-size: 46px;
+    text-decoration: underline;
+}
+
+p{
+    height: 36px;
+    width: 333px;
+    background-color: rgb(100, 99, 99);
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+label{
+    color: #fff;
+    vertical-align:-webkit-baseline-middle;
+    margin: 4px;
+    padding: 3px;
+}
+
+input{
+    background-color: rgb(212, 210, 210);
+    color: #838080;
+    font-size: 12px;
+    font-weight: bolder;
+    width: 220px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    position:fixed;
+    margin: 2px;
+    margin-left: 8px;
+}
+
+button{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(58, 103, 58);
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: rgb(58, 123, 58);
+    cursor: pointer;
+    color: rgb(220,220,220);
+}
+
+.error-message{
+    height: 20px;
+    width: 300px;
+    background-color: rgb(103, 58, 58);
+    color: #fff;
+    font-weight: bold;
+    display: none;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.sucess-message{
+    height: 20px;
+    width: 300px;
+    background-color: rgb(58, 103, 58);
+    color: #fff;
+    font-weight: bold;
+    display: none;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+footer{
+    margin-top: 6px;
+    color: rgb(100,99,99);
+}
